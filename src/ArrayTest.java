@@ -19,9 +19,9 @@ public class ArrayTest {
             list.add(addNum);
             total = total + list.get(num);
 
-        } while (keyboard.nextInt() != exit);
-
-        mean = total / list.size();
+        } while (addNum != exit);
+        list.remove(list.size()-1);
+            mean = total / list.size();
 
         display(list);
         System.out.println("");
