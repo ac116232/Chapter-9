@@ -27,7 +27,7 @@ public class DoesItHaveLegs {
                 System.out.println(questions.get(q));
                 userAnswer = input.nextLine().toUpperCase();
 
-                if(userAnswer.equals("YES")) {
+                if(user.Answerequals("YES")) {
                     System.out.println("Is it a " + animals.get(a));
                     userAnswer = input.nextLine().toUpperCase();
                     while(a < animals.size()) {

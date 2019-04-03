@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class TwoDimensionalArrayDemo {
+public class TwoDimensionalArrayDemo
+{
 
     public static void main(String[] args)
     {
@@ -26,8 +27,8 @@ public class TwoDimensionalArrayDemo {
             }
             else
                 System.out.println("Invalid postition selected");
-            System.out.print("Enter a row or " + QUIT + "to quit >");
-            row = input.nextInt();
+            System.out.print("Enter a row or " + QUIT + " to quit >");
+              row = input. nextInt();
         }
     }
 }
